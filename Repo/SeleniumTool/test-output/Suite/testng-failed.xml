@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="Firefox"/>
+  <parameter name="un" value="admin"/>
+  <test name="TestFirefox(failed)" parallel="tests">
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="un" value="admin"/>
+    <classes>
+      <class name="parallel.DemoA">
+        <methods>
+          <include name="testBrowser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- parallel.DemoA -->
+    </classes>
+  </test> <!-- TestFirefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

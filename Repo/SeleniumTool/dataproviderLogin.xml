@@ -1,0 +1,7 @@
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="dataProvider.DataproviderActiTLogin"/>
+    </classes>
+  </test> 
+</suite> 

@@ -1,0 +1,9 @@
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="un" value="admin"/>
+  <parameter name="pw" value="manager"/>
+    <classes>
+      <class name="testNGParameters.ParameterTestLevel"/>
+    </classes>
+  </test> 
+</suite> 

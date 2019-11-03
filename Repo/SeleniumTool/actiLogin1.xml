@@ -1,0 +1,8 @@
+<suite name="Suite">
+  <test name="Test1">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testNGParameters.ActiTimeLogin1"/>
+    </classes>
+  </test> 
+</suite>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[TestA Begin	]]>
+    </line>
+    <line>
+      <![CDATA[Welcome to Assertion]]>
+    </line>
+    <line>
+      <![CDATA[TestA End 	]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="412" started-at="2019-09-11T06:38:12Z" finished-at="2019-09-11T06:38:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="412" started-at="2019-09-11T06:38:12Z" finished-at="2019-09-11T06:38:13Z">
+      <class name="grid.SoftAssert_1">
+        <test-method status="PASS" signature="testA()[pri:0, instance:grid.SoftAssert_1@1efbd816]" name="testA" duration-ms="158" started-at="2019-09-11T12:08:13Z" finished-at="2019-09-11T12:08:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TestA Begin	]]>
+            </line>
+            <line>
+              <![CDATA[Welcome to Assertion]]>
+            </line>
+            <line>
+              <![CDATA[TestA End 	]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testA -->
+      </class> <!-- grid.SoftAssert_1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
